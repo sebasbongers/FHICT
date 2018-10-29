@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H5_Solutions", "H5_Solutions\H5_Solutions.csproj", "{258232B8-C263-476D-AC66-FBE7384F3827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H5_Solutions.Tests", "H5_Solutions.Tests\H5_Solutions.Tests.csproj", "{CA6EC4C4-321A-4792-8EFE-0A476DD07A10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{258232B8-C263-476D-AC66-FBE7384F3827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258232B8-C263-476D-AC66-FBE7384F3827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258232B8-C263-476D-AC66-FBE7384F3827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258232B8-C263-476D-AC66-FBE7384F3827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6EC4C4-321A-4792-8EFE-0A476DD07A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6EC4C4-321A-4792-8EFE-0A476DD07A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6EC4C4-321A-4792-8EFE-0A476DD07A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6EC4C4-321A-4792-8EFE-0A476DD07A10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C43B6ACD-299C-42B1-ABF6-AC5D189D7D13}
+	EndGlobalSection
+EndGlobal
