@@ -51,25 +51,6 @@ audio:not([controls]) {
   display: none;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 40px;
-}
-
-.flex-container > div {
-    background-color: #f1f1f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-    height: 300px;
-    font-size: 30px;
-}
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
