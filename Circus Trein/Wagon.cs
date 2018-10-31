@@ -9,7 +9,7 @@ namespace Circus_Trein
     class Wagon
     {
         public int RoomLeft { get; set; }   
-        private List<Animal> animals = new List<Animal>();
+        private readonly List<Animal> _animals = new List<Animal>();
 
         public Wagon()
         {
@@ -20,7 +20,7 @@ namespace Circus_Trein
         {
             if (RoomLeft >= animal.getSizeNum() && checkCompatibility(animal))
             {
-                animals.Add(animal);
+                _animals.Add(animal);
                 RoomLeft -= animal.getSizeNum();
                 return true;
             }
@@ -32,7 +32,7 @@ namespace Circus_Trein
 
         private bool checkCompatibility(Animal animal)
         {
-            foreach(Animal wagonAnimal in animals)
+            foreach(Animal wagonAnimal in _animals)
             {
                 if(wagonAnimal.Food == AnimalFood.Meat)
                 {  
@@ -56,7 +56,7 @@ namespace Circus_Trein
         public override string ToString()
         {
             string animalString = "Wagon: "; 
-            foreach (Animal animal in this.animals)
+            foreach (Animal animal in this._animals)
             {
                 animalString += animal + "; ";
             }
